@@ -1,0 +1,138 @@
+p, a, h1 {
+    /* color: darkgray; */
+    font-family: 'Space Mono', sans-serif;;
+
+}
+a {
+    color: white;
+}
+.sidetext{
+    text-align: l;
+}
+.avalink{
+    background-color: #5769f2;
+            padding: 15px;
+}
+
+.mollylink{
+    background-color: #3543aa;
+            padding: 15px;
+}
+
+.gregorylink{
+    background-color: #273078;
+            padding: 15px;
+}
+
+.egglink{
+    background-color: #171d4b;
+            padding: 15px;
+}
+
+body { 
+    background-color: white;
+
+    font-family: 'Space Mono', sans-serif;;
+
+    .box {
+        margin: 10px 20px 15px 5px;
+    }
+    
+}
+
+h1 { 
+    font-size: 26px;
+
+}
+#extitle {
+    display: block;
+    width: auto; 
+    height: 50px;
+    margin-left: 0;
+    margin-right:auto;
+}
+
+@media only screen and (max-width:400px) {
+
+    #extitle{
+
+        width: 300px;
+    
+        .center {
+            display: block;
+            margin-left: auto; 
+            margin-right: auto;
+            width: 50%;
+        }
+    }
+
+}
+.piece {
+    display: block;
+    width: 66%; 
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.artpage {
+    display: block;
+    width: 80%; 
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.artpageX {
+    display: inline;
+    width: auto; 
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: flex;
+    overflow: visible;
+  }
+  
+.exhibition {
+    flex: 75%;
+    height: 80vh;
+}
+.content {
+    height: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+    scrollbar-color: red orange;
+    scrollbar-width: thin;
+    padding: 25px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+.sidebar {
+    flex: 25%;
+    height: 80vh;
+}
+
+
+
